@@ -5,8 +5,11 @@ def roll_call_dwarves(dwarves) # code an argument here
   end
 end
 
-def summon_captain_planet# code an argument here
+def summon_captain_planet(planet_calls)# code an argument here
   # Your code here
+  planet_calls.collect do |thisplanet_call
+  
+  end
 end
 
 def long_planeteer_calls# code an argument here
