@@ -8,7 +8,7 @@ end
 def summon_captain_planet(planet_calls)# code an argument here
   # Your code here
   planet_calls.collect do |thisplanet_call|
-    thisplanet_call + "!"
+    thisplanet_call.capitalize + "!"
   
   end
 end
